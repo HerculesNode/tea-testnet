@@ -1,4 +1,8 @@
-# tea-testnet
+# Tea Ödüllü testnet
+
+## Linkler
+ * [Hercules Telegram](https://t.me/HerculesNode)
+ * [Hercules Twitter](https://twitter.com/Herculesnode)
 
 - Öncelikle tea projesi github üzerindeki projeleri indexleyerek kendi alanında bir proje indexleme servisidir. Testnet şuanda açıldı ve ITN yani ödüllü olduğu söyleniyor. 
 - Proje bir nevi geliştiriciler için güzel bir testnet imkanı sunuyor, geliştirici değilseniz bazı görevleri yaparak sizde puan kazanabilirsiniz. 
@@ -29,3 +33,10 @@
 
 # 3- Panel işlemleri ( Geliştirici olmayan )
 
+- Burada geliştirici değilseniz bazı görevler bulunuyor bunları tamamlamanız gerekiyor. 
+- Ayarlardan mail adresi girmek
+- kendinizi tanıtmak
+- Tea tweet atmak
+- stake etme işlemleri gibi.
+
+![image](https://github.com/HerculesNode/tea-testnet/assets/101635385/2f8aeddd-e2c8-46fd-a925-996e88b7d035)
