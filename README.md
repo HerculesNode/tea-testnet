@@ -34,34 +34,65 @@
 1- ilk olarak masaüstünde proje klasörü oluşturun örnek `testprojem` 
 
 
-- package.json için aşağıdaki kodları kopyalayın kendinize göre doldurun. <BURAYI DEĞİŞTİR> dediğim yerleri kendinize göre değiştirin ve bunu silin
+- `package.json` adında bir dosya oluşturun ve içine aşağıdaki kodları kopyalayın kendinize göre doldurun. <BURAYI DEĞİŞTİR> dediğim yerleri kendinize göre değiştirin ve <BURAYI DEĞİŞTİR> kısmını silin.
 
 ```bash
 {
   "name": "testprojem",  <BURAYI DEĞİŞTİR>
-  "version": "1.0.0",
-  "description": "test açıklamam.",  <BURAYI DEĞİŞTİR>
+  "version": "1.0.2",
+  "description": "hercules test project ",  <BURAYI DEĞİŞTİR>
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git@github.com:herculesnode/testprojem"   <BURAYI DEĞİŞTİR>
-  },
-  "keywords": [
-    "project",   <BURAYI DEĞİŞTİR>
-    "oyun"      <BURAYI DEĞİŞTİR>
+  "type": "git",
+  "url": "https://github.com/HerculesNode/testprojem.git"  <BURAYI DEĞİŞTİR>
+   },
+    "keywords": [
+    "test",     <BURAYI DEĞİŞTİR>
+    "proje",    <BURAYI DEĞİŞTİR>
+    "matsh"     <BURAYI DEĞİŞTİR>
   ],
-  "author": "herculesnode (https://github.com/herculesnode)",   <BURAYI DEĞİŞTİR>
+  "dependencies": {
+    "express":"latest",
+    "ejs":"latest"
+  },
+  "author": "Hercules",  <BURAYI DEĞİŞTİR>
   "license": "MIT",
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
-  }
+  "bugs": {
+    "url": "https://github.com/HerculesNode/testprojem/issues" <BURAYI DEĞİŞTİR>
+  },
+  "homepage": "https://github.com/HerculesNode/testprojem#readme" <BURAYI DEĞİŞTİR>
 }
 
 ```
+
+
+- `index.html` adında bir dosya oluşturun ve içine aşağıdaki kodları kopyalayın kendinize göre doldurun. <BURAYI DEĞİŞTİR> dediğim yerleri kendinize göre değiştirin ve <BURAYI DEĞİŞTİR> kısmını silin.
+
+ ```bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projem</title>  <BURAYI DEĞİŞTİR>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <script src="index.js">   
+    </script>
+</body>
+</html>
+
+```
+
+
+- `readme.md` adında bir dosya oluşturun içini kendinize göre doldurun. 
+
+- `index.js` adında bir dosya oluşturun ve projenizi içine yerleştirin.
 
 
 ![image](https://github.com/HerculesNode/tea-testnet/assets/101635385/00b9e31a-7382-4236-a56e-2c5d427df40a)
