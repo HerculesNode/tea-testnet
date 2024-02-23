@@ -27,6 +27,43 @@
 - Github hesabınızda bir proje oluştrumanız gerekiyor ve bu projeyi Register OSS project ile kayıt etmeniz lazım. Aşağıdaki resim gibi. 
 - Github projeniz oluşturduktan sonra indexlenmesi 24 saat sürüyor, yani hemen tea projenizi görmüyor.
 
+- Şimdi proje için `index.html` , `index.js` , `package.json` ve `Readme.md` dosyaLarı oluşturacağız.  
+- Bunları not defterindende yada VS yada notepad ++ ile rahatça yapablirsiniz. 
+
+
+1- ilk olarak masaüstünde proje klasörü oluşturun örnek `testprojem` 
+
+
+- package.json için aşağıdaki kodları kopyalayın kendinize göre doldurun. <BURAYI DEĞİŞTİR> dediğim yerleri kendinize göre değiştirin ve bunu silin
+
+```bash
+{
+  "name": "testprojem",  <BURAYI DEĞİŞTİR>
+  "version": "1.0.0",
+  "description": "test açıklamam.",  <BURAYI DEĞİŞTİR>
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:herculesnode/testprojem"   <BURAYI DEĞİŞTİR>
+  },
+  "keywords": [
+    "project",   <BURAYI DEĞİŞTİR>
+    "oyun"      <BURAYI DEĞİŞTİR>
+  ],
+  "author": "herculesnode (https://github.com/herculesnode)",   <BURAYI DEĞİŞTİR>
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
+
+```
+
+
 ![image](https://github.com/HerculesNode/tea-testnet/assets/101635385/00b9e31a-7382-4236-a56e-2c5d427df40a)
 ![image](https://github.com/HerculesNode/tea-testnet/assets/101635385/8fc64ff3-fd48-4660-bf31-ec320a3a520a)
 
